@@ -142,7 +142,7 @@ class NvimEventHandler:
 
     def _run_event_loop(self):
         try:
-            # Set g:channel_id and define CollabEditNotify with echom
+            # Use channel_id for rpcnotify and echom for debugging
             self.nvim.command(f'''
                 let g:channel_id = {self.channel_id}
                 function! CollabEditNotify()
@@ -167,11 +167,10 @@ class NvimEventHandler:
                     event = self.nvim.next_message()
                     if event:
                         logger.info(f"Received event from Nvim: {event}")
-                        name, args = event
-                        if name == 'buffer_changed':
+                        event_type, name, args = event
+                        if event_type == 'notification' and name == 'buffer_changed':
                             new_content = "\n".join(args[1])
                             if new_content != self._last_content:
-                                # Execute callback in asyncio event loop
                                 future = asyncio.run_coroutine_threadsafe(
                                     self.callback(args),
                                     self.event_loop
@@ -232,8 +231,8 @@ class CollaborativeEditor:
         self.site_id = str(uuid.uuid4())
         logger.info(f"Editor site_id: {self.site_id}")
 
-        # Get channel_id from Neovim
-        self.channel_id = self.nvim.eval('nvim_get_api_info()[0]')
+        # Get channel_id using the Neovim API
+        self.channel_id, _ = self.nvim.api.get_api_info()
         logger.info(f"Using channel_id {self.channel_id} for RPC notifications")
 
         self.websocket = None
@@ -250,10 +249,12 @@ class CollaborativeEditor:
             new_text = "\n".join(new_lines)
             old_text = self.last_known_text
 
+            # Compute longest common prefix
             prefix_len = 0
             while prefix_len < len(old_text) and prefix_len < len(new_text) and old_text[prefix_len] == new_text[prefix_len]:
                 prefix_len += 1
 
+            # Compute longest common suffix
             suffix_len = 0
             while suffix_len < (len(old_text) - prefix_len) and suffix_len < (len(new_text) - prefix_len) and \
                   old_text[-(suffix_len+1)] == new_text[-(suffix_len+1)]:
@@ -279,6 +280,7 @@ class CollaborativeEditor:
             # Send operations to WebSocket
             for op in operations:
                 if self.websocket:
+                    logger.info(f"Sending operation: {op}")
                     await self._send_operation(op)
                 else:
                     logger.warning("WebSocket not connected, cannot send operation")
@@ -290,7 +292,6 @@ class CollaborativeEditor:
     async def _send_operation(self, operation: dict):
         try:
             message = json.dumps(operation)
-            logger.info(f"Sending operation: {message}")
             await self.websocket.send(message)
         except Exception as e:
             logger.error(f"Error sending operation: {e}", exc_info=True)
