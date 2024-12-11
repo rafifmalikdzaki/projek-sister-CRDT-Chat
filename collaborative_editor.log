@@ -308,3 +308,207 @@ ConnectionRefusedError: [Errno 111] Connection refused
 2024-12-11 16:10:17,787 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsads']])
 2024-12-11 16:10:17,828 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsa']])
 2024-12-11 16:10:18,007 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsad']])
+2024-12-11 16:11:07,186 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsada']])
+2024-12-11 16:11:07,246 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadas']])
+2024-12-11 16:11:07,371 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasd']])
+2024-12-11 16:11:07,550 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasda']])
+2024-12-11 16:11:07,571 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdas']])
+2024-12-11 16:11:07,701 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd']])
+2024-12-11 16:11:07,873 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', '']])
+2024-12-11 16:11:08,138 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'a']])
+2024-12-11 16:11:08,139 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'as']])
+2024-12-11 16:11:08,240 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asd']])
+2024-12-11 16:11:08,364 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asds']])
+2024-12-11 16:11:08,366 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdsa']])
+2024-12-11 16:11:08,515 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdsad']])
+2024-12-11 16:11:08,619 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdsada']])
+2024-12-11 16:11:08,691 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdsadas']])
+2024-12-11 16:11:09,112 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdsadasd']])
+2024-12-11 16:11:09,599 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdsadasds']])
+2024-12-11 16:11:09,842 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdsadasdsa']])
+2024-12-11 16:11:10,079 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdsadasdsad']])
+2024-12-11 16:11:10,275 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdaadasdasdsadsadasdasd']])
+2024-12-11 16:11:10,479 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdaadasdasdsadsadasdasd', '']])
+2024-12-11 16:11:10,695 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdaadasdasdsadsadasdasd', '', '']])
+2024-12-11 16:11:10,927 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdaadasdasdsadsadasdasd', '', '', '']])
+2024-12-11 16:11:11,096 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdaadasdasdsadsadasdasd', '', '', '', '']])
+2024-12-11 16:11:11,286 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdaadasdasdsadsadasdasd', '', '', '', '', '']])
+2024-12-11 16:11:11,754 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdaadasdasdsadsadasdasd', '', '', '', '', '']])
+2024-12-11 16:11:14,180 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['sdasdsadsa', 'asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdaadasdasdsadsadasdasd', '', '', '', '', '']])
+2024-12-11 16:11:15,318 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['asdasdsadsaads', 'asdaadasdasdsadsadasdasd', 'asdaadasdasdsadsadasdasd', '', '', '', '', '']])
+2024-12-11 16:11:15,699 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['asdaadasdasdsadsadasdasd', 'asdaadasdasdsadsadasdasd', '', '', '', '', '']])
+2024-12-11 16:11:16,189 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['asdaadasdasdsadsadasdasd', '', '', '', '', '']])
+2024-12-11 16:11:17,274 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['', '', '', '', '']])
+2024-12-11 16:11:21,251 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['']])
+2024-12-11 16:22:52,804 [INFO] Client 740832 removed. Total clients: 0
+2024-12-11 16:22:52,805 [INFO] Shutting down...
+2024-12-11 16:22:53,949 [INFO] server closing
+2024-12-11 16:22:53,949 [INFO] server closed
+2024-12-11 16:22:53,951 [INFO] Shutting down...
+2024-12-11 16:56:24,558 [INFO] server listening on [::1]:8765
+2024-12-11 16:56:24,558 [INFO] server listening on 127.0.0.1:8765
+2024-12-11 16:56:24,558 [INFO] WebSocket server running on ws://localhost:8765
+2024-12-11 16:57:01,345 [INFO] Initializing CollaborativeEditor with socket path: /tmp/nvim-socket1.sock
+2024-12-11 16:57:01,351 [INFO] Successfully attached to Neovim
+2024-12-11 16:57:01,351 [INFO] Editor site_id: bbd21823-0529-4df6-a4b0-98545340742a
+2024-12-11 16:57:01,357 [INFO] Using channel_id 3 for RPC notifications
+2024-12-11 16:57:01,358 [INFO] Starting CollaborativeEditor
+2024-12-11 16:57:01,358 [INFO] Attempting to connect to ws://localhost:8765
+2024-12-11 16:57:01,369 [INFO] connection open
+2024-12-11 16:57:01,369 [INFO] New client 141744 connected. Total clients: 1
+2024-12-11 16:57:01,370 [INFO] Successfully connected to WebSocket server
+2024-12-11 16:57:01,370 [INFO] Initializing NvimEventHandler
+2024-12-11 16:57:01,370 [INFO] NvimEventHandler thread started
+2024-12-11 16:57:01,371 [INFO] Neovim handler initialized with initial content
+2024-12-11 16:57:03,764 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['g']])
+2024-12-11 16:57:04,635 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['ge']])
+2024-12-11 16:57:04,918 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['ges']])
+2024-12-11 16:57:05,109 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesd']])
+2024-12-11 16:57:05,373 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesda']])
+2024-12-11 16:57:11,621 [INFO] Client 141744 removed. Total clients: 0
+2024-12-11 16:57:11,622 [INFO] Shutting down...
+2024-12-11 16:57:13,310 [INFO] server closing
+2024-12-11 16:57:13,311 [INFO] server closed
+2024-12-11 16:57:13,312 [INFO] Shutting down...
+2024-12-11 16:57:16,420 [INFO] server listening on 127.0.0.1:8765
+2024-12-11 16:57:16,420 [INFO] server listening on [::1]:8765
+2024-12-11 16:57:16,420 [INFO] WebSocket server running on ws://localhost:8765
+2024-12-11 16:57:19,274 [INFO] Initializing CollaborativeEditor with socket path: /tmp/nvim-socket1.sock
+2024-12-11 16:57:19,280 [INFO] Successfully attached to Neovim
+2024-12-11 16:57:19,280 [INFO] Editor site_id: 9e044211-46d7-4b62-877a-6832a0892fa6
+2024-12-11 16:57:19,286 [INFO] Using channel_id 4 for RPC notifications
+2024-12-11 16:57:19,287 [INFO] Starting CollaborativeEditor
+2024-12-11 16:57:19,287 [INFO] Attempting to connect to ws://localhost:8765
+2024-12-11 16:57:19,298 [INFO] connection open
+2024-12-11 16:57:19,299 [INFO] New client 457008 connected. Total clients: 1
+2024-12-11 16:57:19,299 [INFO] Successfully connected to WebSocket server
+2024-12-11 16:57:19,299 [INFO] Initializing NvimEventHandler
+2024-12-11 16:57:19,299 [INFO] NvimEventHandler thread started
+2024-12-11 16:57:19,300 [INFO] Neovim handler initialized with initial content
+2024-12-11 16:57:20,973 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdas']])
+2024-12-11 16:57:20,992 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasa']])
+2024-12-11 16:57:21,117 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasad']])
+2024-12-11 16:57:21,722 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasada']])
+2024-12-11 16:57:21,731 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadas']])
+2024-12-11 16:57:21,891 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasd']])
+2024-12-11 16:57:22,277 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasda']])
+2024-12-11 16:57:22,384 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdas']])
+2024-12-11 16:57:22,680 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasd']])
+2024-12-11 16:57:24,538 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasda']])
+2024-12-11 16:57:24,691 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasdas']])
+2024-12-11 16:57:24,893 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasdasd']])
+2024-12-11 16:57:25,221 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasdasda']])
+2024-12-11 16:57:25,271 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasdasdas']])
+2024-12-11 16:57:25,444 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasdasdasd']])
+2024-12-11 16:57:25,691 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasdasdasda']])
+2024-12-11 16:57:25,727 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasdasdasdas']])
+2024-12-11 16:57:25,910 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasdasdasdasd']])
+2024-12-11 16:57:26,218 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasdasdasdasda']])
+2024-12-11 16:57:26,333 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasdasdasdasdas']])
+2024-12-11 16:57:26,454 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasdasdasdasdasd']])
+2024-12-11 16:57:28,502 [INFO] Received event from Nvim: Notification(type='notification', name='buffer_changed', args=[5, ['gesdasadasdasdasdasdasdasd']])
+2024-12-11 17:00:56,635 [INFO] Client 457008 removed. Total clients: 0
+2024-12-11 17:00:56,636 [INFO] server closing
+2024-12-11 17:00:56,636 [INFO] server closed
+2024-12-11 17:00:56,637 [INFO] Shutting down...
+2024-12-11 17:00:56,645 [ERROR] Connection error: no close frame received or sent
+Traceback (most recent call last):
+  File "/home/dzakirm/Documents/KuliahSemester1-S2/SistemTerdistribusi/project/collab2.py", line 340, in connect
+  File "/home/dzakirm/Documents/KuliahSemester1-S2/SistemTerdistribusi/project/collab2.py", line 307, in _handle_websocket_events
+    async def _handle_websocket_events(self):
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/connection.py", line 242, in __aiter__
+    yield await self.recv()
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/connection.py", line 313, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2024-12-11 17:00:57,659 [INFO] Attempting to connect to ws://localhost:8765
+2024-12-11 17:00:57,661 [ERROR] Connection error: Multiple exceptions: [Errno 111] Connect call failed ('::1', 8765, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 8765)
+Traceback (most recent call last):
+  File "/home/dzakirm/Documents/KuliahSemester1-S2/SistemTerdistribusi/project/collab2.py", line 331, in connect
+    logger.info(f"Attempting to connect to {self.websocket_url}")
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/client.py", line 485, in __aenter__
+    return await self
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/client.py", line 442, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/client.py", line 368, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/asyncio/base_events.py", line 1084, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('::1', 8765, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 8765)
+2024-12-11 17:00:58,674 [INFO] Attempting to connect to ws://localhost:8765
+2024-12-11 17:00:58,676 [ERROR] Connection error: Multiple exceptions: [Errno 111] Connect call failed ('::1', 8765, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 8765)
+Traceback (most recent call last):
+  File "/home/dzakirm/Documents/KuliahSemester1-S2/SistemTerdistribusi/project/collab2.py", line 331, in connect
+    logger.info(f"Attempting to connect to {self.websocket_url}")
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/client.py", line 485, in __aenter__
+    return await self
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/client.py", line 442, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/client.py", line 368, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/asyncio/base_events.py", line 1084, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('::1', 8765, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 8765)
+2024-12-11 17:00:59,339 [INFO] Shutting down...
+2024-12-11 17:01:02,754 [INFO] server listening on 127.0.0.1:8765
+2024-12-11 17:01:02,755 [INFO] server listening on [::1]:8765
+2024-12-11 17:01:02,755 [INFO] WebSocket server running on ws://localhost:8765
+2024-12-11 17:01:05,901 [INFO] Initializing CollaborativeEditor with socket path: /tmp/nvim-socket1.sock
+2024-12-11 17:01:05,906 [INFO] Successfully attached to Neovim
+2024-12-11 17:01:05,906 [INFO] Editor site_id: eb6d08ff-eca2-47b4-b0e5-d5e2e65ba1fc
+2024-12-11 17:01:05,912 [INFO] Using channel_id 5 for RPC notifications
+2024-12-11 17:01:05,914 [INFO] gesdasadasdasdasdasdasdasd
+2024-12-11 17:01:05,914 [INFO] Starting CollaborativeEditor
+2024-12-11 17:01:05,914 [INFO] Attempting to connect to ws://localhost:8765
+2024-12-11 17:01:05,926 [INFO] connection open
+2024-12-11 17:01:05,926 [INFO] New client 767856 connected. Total clients: 1
+2024-12-11 17:01:05,926 [INFO] Successfully connected to WebSocket server
+2024-12-11 17:01:05,927 [INFO] Initializing NvimEventHandler
+2024-12-11 17:01:05,927 [INFO] NvimEventHandler thread started
+2024-12-11 17:01:05,928 [INFO] Neovim handler initialized with initial content
+2024-12-11 17:01:38,465 [INFO] Client 767856 removed. Total clients: 0
+2024-12-11 17:01:38,465 [INFO] server closing
+2024-12-11 17:01:38,465 [INFO] server closed
+2024-12-11 17:01:38,467 [INFO] Shutting down...
+2024-12-11 17:01:38,475 [ERROR] Connection error: no close frame received or sent
+Traceback (most recent call last):
+  File "/home/dzakirm/Documents/KuliahSemester1-S2/SistemTerdistribusi/project/collab2.py", line 341, in connect
+    await self._handle_websocket_events()
+  File "/home/dzakirm/Documents/KuliahSemester1-S2/SistemTerdistribusi/project/collab2.py", line 308, in _handle_websocket_events
+    async for message in self.websocket:
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/connection.py", line 242, in __aiter__
+    yield await self.recv()
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/connection.py", line 313, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2024-12-11 17:01:39,477 [INFO] Attempting to connect to ws://localhost:8765
+2024-12-11 17:01:39,480 [ERROR] Connection error: Multiple exceptions: [Errno 111] Connect call failed ('::1', 8765, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 8765)
+Traceback (most recent call last):
+  File "/home/dzakirm/Documents/KuliahSemester1-S2/SistemTerdistribusi/project/collab2.py", line 332, in connect
+    async with websockets.connect(self.websocket_url) as websocket:
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/client.py", line 485, in __aenter__
+    return await self
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/client.py", line 442, in __await_impl__
+    self.connection = await self.create_connection()
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/site-packages/websockets/asyncio/client.py", line 368, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "/home/dzakirm/anaconda3/envs/DistributedSys/lib/python3.10/asyncio/base_events.py", line 1084, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('::1', 8765, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 8765)
+2024-12-11 17:01:39,840 [INFO] Shutting down...
+2024-12-11 17:01:42,342 [INFO] server listening on [::1]:8765
+2024-12-11 17:01:42,342 [INFO] server listening on 127.0.0.1:8765
+2024-12-11 17:01:42,342 [INFO] WebSocket server running on ws://localhost:8765
+2024-12-11 17:01:43,700 [INFO] Initializing CollaborativeEditor with socket path: /tmp/nvim-socket1.sock
+2024-12-11 17:01:43,705 [INFO] Successfully attached to Neovim
+2024-12-11 17:01:43,706 [INFO] Editor site_id: c377124a-a11f-4893-bb55-4df11cde9459
+2024-12-11 17:01:43,712 [INFO] Using channel_id 6 for RPC notifications
+2024-12-11 17:01:43,713 [INFO] Initial text: gesdasadasdasdasdasdasdasd
+2024-12-11 17:01:43,713 [INFO] Starting CollaborativeEditor
+2024-12-11 17:01:43,713 [INFO] Attempting to connect to ws://localhost:8765
+2024-12-11 17:01:43,725 [INFO] connection open
+2024-12-11 17:01:43,726 [INFO] New client 325936 connected. Total clients: 1
+2024-12-11 17:01:43,726 [INFO] Successfully connected to WebSocket server
+2024-12-11 17:01:43,726 [INFO] Initializing NvimEventHandler
+2024-12-11 17:01:43,727 [INFO] NvimEventHandler thread started
+2024-12-11 17:01:43,728 [INFO] Neovim handler initialized with initial content

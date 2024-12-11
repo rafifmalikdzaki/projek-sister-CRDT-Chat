@@ -106,6 +106,7 @@ class CRDTDocument:
 
     def apply_remote_operation(self, op: dict):
         op_type = op["type"]
+        logger.info(f"Applying remote operation: {op_type}")
         remote_id = CRDTCharID(site_id=op["char_id"][0], seq=op["char_id"][1])
 
         if op_type == "insert":
@@ -242,12 +243,16 @@ class CollaborativeEditor:
             self.document.insert_char_at_offset(len(self.document.sequence), ch)
         self.nvim_handler = None
         self.last_known_text = initial_text
+        logger.info(f"Initial text: {self.last_known_text}")
 
     async def _handle_nvim_change(self, args):
         try:
             new_lines = args[1]
             new_text = "\n".join(new_lines)
             old_text = self.last_known_text
+
+            logger.info(f"Old text: {old_text}")
+            logger.info(f"New text: {new_text}")
 
             # Compute longest common prefix
             prefix_len = 0
@@ -262,6 +267,9 @@ class CollaborativeEditor:
 
             old_mid = old_text[prefix_len:len(old_text)-suffix_len]
             new_mid = new_text[prefix_len:len(new_text)-suffix_len]
+
+            logger.info(f"Old middle: {old_mid}")
+            logger.info(f"New middle: {new_mid}")
 
             operations = []
             # Delete old_mid
